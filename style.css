@@ -1,0 +1,183 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: black;
+}
+
+header {
+    background-color: white; /* or any color you prefer */
+    position: fixed; /* keeps the header at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* high z-index to keep it on top */
+    shadow-md: 0px 2px 4px -2px rgba(0,0,0,0.2); /* optional: adds a shadow for better visibility */
+  }
+  @media screen and (max-width: 768px) {
+    #mobileMenu {
+      display: none;
+    }
+  }
+  
+  .normbg{
+    background-image: url(images/wave-haikei.png);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+  
+
+
+.container1 {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+.pimg1 {
+  background-image: url(images/image1c.jpg);
+  min-height: 100%;
+}
+
+.pimg1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9); /* Adjust the rgba values to control the contrast */
+    opacity: 0.5; /* Adjust opacity for the desired effect */
+  }
+.pimg2 {
+  background-image: url(images/image2.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(images/image3.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: white;
+  color: black;
+  padding: 20px;
+}
+
+.flex1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex1 > div {
+  font-weight: 500;
+  font-size: 2rem;
+  color: white;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: black;
+}
+.section-dark {
+  background-color: white;
+  color: black;
+}
+
+.flex-container1 {
+    display: flex;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  
+/* Gallery Section */
+
+#project {
+    background: var(--darker-color);
+  }
+  
+  #project h2 {
+    font-size: 6rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .project_container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  .grid_item {
+    display: grid;
+    place-items: center;
+  }
+  
+  .card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+  }
+  .card:hover img {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+  }
+  .card:hover .card_content {
+    background:#0F3D3E;
+    color: var(--dark-color);
+    transform: translateY(0px);
+  }
+  
+  .card_content {
+    padding: 2rem;
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+  }
+  .card_content h3 {
+    text-align: center;
+  }
+  
