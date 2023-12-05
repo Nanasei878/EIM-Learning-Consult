@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: white; /* or any color you prefer */
+    background-color:#00000000; /* or any color you prefer */
     position: fixed; /* keeps the header at the top */
     top: 0;
     width: 100%;
