@@ -1,170 +1,198 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-<div class="container mx-auto">
-  <header class="bg-white fixed top-0 w-full shadow-md">
-    <nav class="container mx-auto px-6 py-3">
-        <div class="flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-gray-800">MyWebsite</a>
-            <div class="hidden md:flex items-center space-x-4">
-                <a href="#" class="text-gray-800 hover:text-blue-600">Home</a>
-                <a href="#" class="text-gray-800 hover:text-blue-600">About</a>
-                <a href="#" class="text-gray-800 hover:text-blue-600">Services</a>
-                <a href="#" class="text-gray-800 hover:text-blue-600">Contact</a>
-                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md">Sign Up</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+           
+  </head>
+  <body>
+    <header class="bg-white fixed top-0 w-full shadow-md">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold text-gray-800">EIM</a>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Home</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">About</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Services</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Contact</a>
+                    <!-- <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md">Sign Up</a>-->
+                </div>
+                <div class="md:hidden flex items-center">
+                    <!-- Hamburger Menu Button -->
+                    <button class="text-gray-800 focus:outline-none menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                    <!-- Mobile Menu Items -->
+                    <div class="hidden items-center space-x-4" id="mobileMenu">
+                        <a href="#" class="text-gray-800 hover:text-blue-600">Home</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-600">About</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-600">Services</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-600">Contact</a>
+                        <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md">Sign Up</a>
+                    </div>
+                </div>
+                
+                
             </div>
-            <div class="md:hidden flex items-center">
-                <button class="text-gray-800 focus:outline-none"> <!-- Add a hamburger menu icon here -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
+        </nav>
+    </header>
+    <section class="pimg1">
+      <div class="flex1 ptext">
+        <!--<span class="textBg"> Parallax Website </span>-->
+        <!--<diV>
+            <a href="https://www.fontspace.com/category/graffiti"><img src="https://see.fontimg.com/api/renderfont4/1Gox2/eyJyIjoiZnMiLCJoIjoxNzIsInciOjEwMDAsImZzIjoxNzIsImZnYyI6IiM1MzhGNzIiLCJiZ2MiOiIjRjRGOEY0IiwidCI6MX0/RUlN/exthing.png" alt="Graffiti fonts"></a>
+        </diV>
+        <div>
+        <h1>CONSULTANCY</h1>
+        <h3>LEARNING & DEVELOPMENT</h3>
         </div>
-        <div class="mt-4">
-            <div class="flex items-center space-x-2">
-                <input type="search" placeholder="Search" class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-blue-600 w-full">
-                <button class="bg-blue-600 text-white px-4 py-2 rounded-md">Search</button>
-            </div>
+      </div>-->
+    </section>
+    <section class="section normbg section-light">
+      <h2>About us </h2>
+      <p>
+        E.I.M Learning and Development Consult is a management consultancy whose main
+        focus is to provide corporate institutions and organizations with well qualified and
+        professional Interns.Our Interns, are paired with mentors who are drawn from across the globe, who guide
+        them on their duties thereby ensuring organizational growth and development to any
+        institution privileged to hire them. We also provide High end trainings to Employees of
+        our partners to keep them update with growing industry trends.
+        This is achieved through our global mentorship programs, self- development workshops
+        internship programs and accountability partnership.
+      </p>
+      <div class="flex-container1">
+        <div>
+            <h2>Vision</h2>
+            <p>To be the first choice Student Consultancy in Africa that bridges the gap between
+                Employers and students, and provides out of classroom employability skills to reduce
+                employment.</p>
         </div>
-    </nav>
-</header>
-  <div class="flex pb-4 bg-blue-100">
-    <main class="flex flex-col w-2/3 pl-6 pr-4 pt-4 ">
-      <article class="my-4 shadow">
-        <a href="#">
-          <img class="hover:opacity-75" src="https://source.unsplash.com/xrVDYZRGdw4/1600x900">
-        </a>
-        <div class="flex flex-col p-6 pt-2 bg-white">
-          <a href="#" class="my-2 text-sm font-bold uppercase border-b-2 border-yellow-500 text-blue-600">Layout</a>
-          <a href="#" class="pb-4 text-3xl font-serif font-bold hover:text-gray-700 ">Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</a>
-          <p class="pb-3 text-sm">By <a href="#" class="font-semibold hover:text-gray-800">David Jacobs</a>, May 25, 2021</p>
-          <p class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta dui. Ut eu iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere magna..</p>
-          <a href="#" class="uppercase text-xs text-blue-600 hover:text-yellow-500">Continue Reading <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </article>
-
-      <article class="my-4 shadow">
-        <a href="#">
-          <img class="hover:opacity-75" src="https://source.unsplash.com/4UGmm3WRUoQ/1600x900">
-        </a>
-        <div class="flex flex-col p-6 pt-2 bg-white">
-          <a href="#" class="my-2 text-sm font-bold uppercase border-b-2 border-yellow-500 text-blue-600">Imagery</a>
-          <a href="#" class="pb-4 text-3xl font-serif font-bold hover:text-gray-700 ">Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</a>
-          <p class="pb-3 text-sm">By <a href="#" class="font-semibold hover:text-gray-800">Monica Sanchez</a>, May 10, 2021</p>
-          <p class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta dui. Ut eu iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere magna..</p>
-          <a href="#" class="uppercase text-xs text-blue-600 hover:text-yellow-500">Continue Reading <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </article>
-
-      <article class="my-4 shadow">
-        <a href="#">
-          <img class="hover:opacity-75" src="https://source.unsplash.com/TkZYCXmrKK4/1600x900">
-        </a>
-        <div class="flex flex-col p-6 pt-2 bg-white">
-          <a href="#" class="my-2 text-sm font-bold uppercase border-b-2 border-yellow-500 text-blue-600">Typography</a>
-          <a href="#" class="pb-4 text-3xl font-serif font-bold hover:text-gray-700 ">Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</a>
-          <p class="pb-3 text-sm">By <a href="#" class="font-semibold hover:text-gray-800">David Jacobs</a>, April 20, 2021</p>
-          <p class="pb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porta dui. Ut eu iaculis massa. Sed ornare ligula lacus, quis iaculis dui porta volutpat. In sit amet posuere magna..</p>
-          <a href="#" class="uppercase text-xs text-blue-600 hover:text-yellow-500">Continue Reading <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </article>
-    </main>
-    <aside class="w-1/3 pl-4 pr-6 pt-8">
-      <section>
-        <form class="flex">
-          <input type="text" class="w-full px-3 py-2 rounded-l-lg focus:outline-none text-gray-800" placeholder="Search...">
-          <button class="px-2 rounded-r-lg focus:outline-none text-center text-xl text-gray-400 hover:text-gray-900 bg-white"><i class="fas fa-search"></i></button>
-        </form>
-      </section>
-
-      <section class="mt-8 text-white">
-        <div class="p-4 rounded-lg shadow-xl text-center bg-gradient-to-b from-red-400 to-red-200">
-          <h3 class="font-semibold text-lg">Get the latest news & tutorials right to your inbox</h3>
-          <form>
-            <input type="email" placeholder="youremail@example.com" class="w-full mt-3 p-3 rounded-lg shadow border border-gray-400 focus:outline-none text-gray-800">
-            <button type="submit" class="w-full mt-4 p-4 rounded-lg focus:outline-none shadow font-semibold uppercase tracking-wider bg-green-600 hover:bg-green-500">Subscribe</button>
-          </form>
-        </div>
-      </section>
-
-      <section class="mt-8">
-        <h3 class="mb-4 pb-2 text-2xl font-semibold border-b-2 border-yellow-500 text-blue-600 ">Categories</h3>
-        <ul>
-          <li class="mb-1">
-            <a class="text-blue-900 hover:text-blue-500" href="#">Layout (23)</a>
-          </li>
-          <li class="mb-1">
-            <a class="text-blue-900 hover:text-blue-500" href="#">Typography (44)</a>
-          </li>
-          <li class="mb-1">
-            <a class="text-blue-900 hover:text-blue-500" href="#">Colors (16)</a>
-          </li>
-          <li class="mb-1">
-            <a class="text-blue-900 hover:text-blue-500" href="#">Imagery (19)</a>
-          </li>
-        </ul>
-      </section>
-    </aside>
-  </div>
-  <section class="flex flex-col items-center p-4 bg-red-400">
-    <div class="text-center text-white">
-      <h2 class="font-bold text-3xl">Want to stay up-to-date?</h2>
-      <h3 class="text-xl">Join our mail list for hot news & new tutorials</h3>
-    </div>
-    <div>
-      <form class="my-4 flex">
-        <input class="p-4 rounded-l-lg focus:outline-none text-gray-800" placeholder="your@mail.com"/>
-        <button class="p-4 rounded-r-lg focus:outline-none font-bold uppercase tracking-wider text-white bg-green-600 hover:bg-green-500">Subscribe</button>
-      </form>
-    </div>
-  </section>
-  <footer class="bg-blue-900">
-    <div class="flex flex-wrap text-white">
-
-      <div class="w-1/3 p-5 border-r border-blue-800">
-        <div class="my-6 text-xl font-semibold">ABOUT US</div>
-        <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est massa. Donec eget elementum sapien, tincidunt tempor nunc. Cras sodales id ipsum at convallis.</p>
-      </div>
-
-      <div class="w-1/3 p-5 text-center border-r border-blue-800">
-        <div class="my-6 text-xl font-semibold">CONTACT US</div>
-        <p class="text-gray-400">
-          A108 Adam Street <br>
-          New York, NY 535022 <br>
-          United States <br>
-          <strong>Phone:</strong> +1 5589 55488 55 <br>
-          <strong>Email:</strong> info@webcraft.com
-        </p>
-        <div class="flex justify-center space-x-4 mt-6">
-          <button class="w-10 h-10 p-1 rounded bg-blue-500">
-            <i class="fab fa-facebook fa-2x"></i>
-          </button>
-          <button class="w-10 h-10 p-1 rounded bg-blue-400">
-            <i class="fab fa-twitter fa-2x"></i>
-          </button>
-          <button class="w-10 h-10 p-1 rounded bg-gray-700">
-            <i class="fab fa-github fa-2x"></i>
-          </button>
+        <div>
+            <h2>Mission</h2>
+            <p>To provide a platform that will facilitate Youth leadership, unearth the Potential of the
+                African youth and create an accountable networking space for the continent’s
+                transformation.</p>
         </div>
       </div>
-
-      <div class="w-1/3 p-5">
-        <div class="my-6 text-xl font-semibold">SAY HELLO!</div>
-        <form>
-          <input class="w-full h-10 mb-4 p-2 focus:outline-none border-b-2 border-blue-800 bg-blue-900" type="email" placeholder="Your email">
-          <textarea class="w-full h-24 mb-6 px-2 pt-2 focus:outline-none border-b-2 border-blue-800 bg-blue-900" placeholder="Your message"></textarea>
-          <button class="w-full px-4 py-2 rounded-lg focus:outline-none font-semibold tracking-wider bg-yellow-600 hover:bg-yellow-500" type="button">SEND</button>
-        </form>
+    </section>
+    <section class="pimg2">
+      <div class="ptext">
+        <span class="textBg"> Explore Nature</span>
       </div>
-    </div>
-  </footer>
-</div>
-</body>
+    </section>
+    <section class="section normbg section-dark">
+      <h2>Section Two</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam aut
+        amet odio est laborum obcaecati perferendis! Mollitia officiis,
+        consectetur vitae laborum eos expedita reprehenderit nostrum tempore.
+        Atque laborum repudiandae adipisci nihil. Natus cum sapiente culpa
+        excepturi quasi magni quibusdam ipsum accusamus laborum, numquam odit!
+        Nisi repudiandae cumque incidunt tempora explicabo vero in corporis
+        provident quidem quisquam sit, asperiores ullam placeat ut iure pariatur
+        ratione laboriosam totam amet minus. Porro, quam quisquam explicabo
+        rerum labore, tempora officia eveniet mollitia iure a fugiat, magnam at.
+        Vero magni aliquam ea molestias omnis, quia fuga architecto maiores ut
+        magnam! Culpa, cum. Blanditiis, tempore temporibus.
+      </p>
+    </section>
+    <section class="pimg3">
+      <div class="ptext">
+        <span class="textBg"> LOOK, DEEP INTO NATURE</span>
+      </div>
+    </section>
+    <section class="section normbg section-dark">
+        <h2>Gallery</h2>
+        <div class="container1">
+          <div class="project_container1">
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/JSEbookimage.jpg" alt="Project 1" />
+                <a href="/Project 1/index.html">
+                  <div class="card_content">
+                    <h3>JavaScript E-book</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/ReactEbook.jpg" alt="Project 2" />
+                <a href="/Project 2/index.html">
+                  <div class="card_content">
+                    <h3>React E-book</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/UiImage.jpg" alt="Project 1" />
+                <a href="/Project 3/index.html">
+                  <div class="card_content">
+                    <h3>UI/UX E-book</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/xyz1.jpg" alt="Project 4" />
+                <a href="/Project 4/index.html">
+                  <div class="card_content">
+                    <h3>Landing Page</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/screenshot.png" alt="Project 5" />
+                <a href="/Project 5/index.html">
+                  <div class="card_content">
+                    <h3>Codemarch Academy</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/xyz1.jpg" alt="Project 6" />
+                <a href="/Project 6/index.html">
+                  <div class="card_content">
+                    <h3>Music Website</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="pimg1">
+      <div class="ptext">
+        <span class="textBg"> Do Some Coding </span>
+      </div>
+    </section>
+    <script>
+        // Your JavaScript code here
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.querySelector('.menu-button');
+        const mobileMenu = document.getElementById('mobileMenu');
+    
+        menuButton.addEventListener('click', function () {
+          mobileMenu.classList.toggle('hidden');
+        });
+      });
+    </script>    
+  </body>
 </html>

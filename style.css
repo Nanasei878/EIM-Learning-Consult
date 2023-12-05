@@ -39,20 +39,11 @@ header {
     margin: 0 auto;
   }
 .pimg1 {
-  background-image: url(images/image1c.jpg);
+  background-image: url(images/image1c.png);
   min-height: 100%;
 }
 
-.pimg1::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.9); /* Adjust the rgba values to control the contrast */
-    opacity: 0.5; /* Adjust opacity for the desired effect */
-  }
+
 .pimg2 {
   background-image: url(images/image2.jpg);
   min-height: 400px;
